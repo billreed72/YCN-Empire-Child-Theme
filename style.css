@@ -1,0 +1,62 @@
+/*
+Theme Name: YCN Empire
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Bill Reed
+Author URI: http://theedgeofthecloud.blogspot.com
+Template: enfold
+*/
+/*
+Desktop Styles
+================================================== 
+*/
+@media only screen and (min-width: 768px) {
+	/*
+	Display WpDiscuz sort, vote, reply, sharelink inline
+	================================================== 
+	*/
+	#wpcomm .wpdiscuz-date-sort-desc, 
+	#wpcomm .wpdiscuz-date-sort-asc, 
+	#wpcomm .wpdiscuz-vote-sort-up {
+		display:inline;
+	}
+	#wpcomm .wc-reply-link, 
+	#wpcomm .wc-vote-link, 
+	#wpcomm .wc-share-link {
+		display:inline;
+	}
+	/*
+	Display AnsPress sort button width large enough to avoid text wrap
+	================================================== 
+	*/
+	#anspress #ap-question-sorting .ap-dropdown {
+		width:70px;
+	}
+}
+/*
+Mobile Styles
+================================================== 
+*/
+@media only screen and (max-width: 767px) {
+	/*
+	Display WpDiscuz sort, vote, reply, sharelink inline
+	================================================== 
+	*/
+	#wpcomm .wpdiscuz-date-sort-desc, 
+	#wpcomm .wpdiscuz-date-sort-asc, 
+	#wpcomm .wpdiscuz-vote-sort-up {
+		display:inline;
+	}
+	#wpcomm .wc-reply-link, 
+	#wpcomm .wc-vote-link, 
+	#wpcomm .wc-share-link {
+		display:inline;
+	}
+	/*
+	Display AnsPress sort button width large enough to avoid text wrap
+	================================================== 
+	*/
+	#anspress #ap-question-sorting .ap-dropdown {
+		width:70px;
+	}
+}
